@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/rpidanny/insta-pulse/compare/v1.1.0...v1.1.1) (2024-12-26)
+
+### Bug Fixes
+
+* deploy gha ([5780174](https://github.com/rpidanny/insta-pulse/commit/5780174a32fbde96b885c5b024dbba9a036b657b))
+
 ## [1.1.0](https://github.com/rpidanny/insta-pulse/compare/v1.0.0...v1.1.0) (2024-12-26)
 
 ### Features
