@@ -6,8 +6,10 @@ on:
     - cron: '0 2 * * *'  # Every day in December at 2am UTC
 
 jobs:
-  init:
+  GetPulse:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
