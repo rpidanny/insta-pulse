@@ -1,3 +1,13 @@
+## [1.2.0](https://github.com/rpidanny/insta-pulse/compare/v1.1.2...v1.2.0) (2024-12-26)
+
+### Features
+
+* pulse for day 26/12/2024 ([de4ef26](https://github.com/rpidanny/insta-pulse/commit/de4ef26ae848a048d13ef7d7b69f957273efe7c3))
+
+### Bug Fixes
+
+* merge conflict ([ac99140](https://github.com/rpidanny/insta-pulse/commit/ac99140d2575cb25bae06520ab3e477d08376b39))
+
 ## [1.1.2](https://github.com/rpidanny/insta-pulse/compare/v1.1.1...v1.1.2) (2024-12-26)
 
 ### Bug Fixes
