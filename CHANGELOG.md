@@ -1,3 +1,9 @@
+## [1.1.2](https://github.com/rpidanny/insta-pulse/compare/v1.1.1...v1.1.2) (2024-12-26)
+
+### Bug Fixes
+
+* get pulse workflow ([89675ad](https://github.com/rpidanny/insta-pulse/commit/89675ad4ed1851581e8e5ac8dbf1362a58d04348))
+
 ## [1.1.1](https://github.com/rpidanny/insta-pulse/compare/v1.1.0...v1.1.1) (2024-12-26)
 
 ### Bug Fixes
