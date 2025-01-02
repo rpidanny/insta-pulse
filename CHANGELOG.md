@@ -1,3 +1,19 @@
+## [1.3.0](https://github.com/rpidanny/insta-pulse/compare/v1.2.0...v1.3.0) (2025-01-02)
+
+### Features
+
+* pulse for day 01/01/2025 ([a307f86](https://github.com/rpidanny/insta-pulse/commit/a307f863b6eb8b5df3e0affd1686c40b15d21d32))
+* pulse for day 02/01/2025 ([afe2811](https://github.com/rpidanny/insta-pulse/commit/afe28116acde6b732ffae4c13d9703864697a04e))
+* pulse for day 27/12/2024 ([50984bf](https://github.com/rpidanny/insta-pulse/commit/50984bf02251759f7c45e054792d0bdb02a0203d))
+* pulse for day 28/12/2024 ([5c2af9c](https://github.com/rpidanny/insta-pulse/commit/5c2af9ce2123669c4529958d8d6f3b6b8ec62a5b))
+* pulse for day 29/12/2024 ([ef0fc2c](https://github.com/rpidanny/insta-pulse/commit/ef0fc2cc292c1d7a860feeb4b4ed4382f260626a))
+* pulse for day 30/12/2024 ([d7b4124](https://github.com/rpidanny/insta-pulse/commit/d7b4124c0a40c8a4d0a29b141b4dfbcc5cde780e))
+* pulse for day 31/12/2024 ([8b42ad3](https://github.com/rpidanny/insta-pulse/commit/8b42ad337844f3ed7dc19250a79382e73e977aa0))
+
+### Bug Fixes
+
+* 2025 statuses ([#10](https://github.com/rpidanny/insta-pulse/issues/10)) ([db3bfae](https://github.com/rpidanny/insta-pulse/commit/db3bfae122bfcf59d02bcdd8caa694425e6ae4a8))
+
 ## [1.2.0](https://github.com/rpidanny/insta-pulse/compare/v1.1.2...v1.2.0) (2024-12-26)
 
 ### Features
