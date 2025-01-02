@@ -7,7 +7,8 @@ on:
 
 jobs:
   GetPulse:
-    runs-on: ubuntu-latest
+    # runs-on: ubuntu-latest
+    runs-on: macos-latest
     permissions:
       contents: write
     steps:
@@ -18,18 +19,16 @@ jobs:
           node-version-file: '.nvmrc'
       - run: npm ci
     
-      - name: Install GUI dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libgtk-3-0 libx11-xcb1 libnss3 libxcomposite1 libasound2 libxrandr2 libxdamage1 libxcursor1 libxinerama1 libxss1 xvfb
+      # - name: Install GUI dependencies
+      #   run: |
+      #     sudo apt-get update
+      #     sudo apt-get install -y libgtk-3-0 libx11-xcb1 libnss3 libxcomposite1 libasound2 libxrandr2 libxdamage1 libxcursor1 libxinerama1 libxss1 xvfb
 
-      - name: Start Xvfb
-        run: |
-          export DISPLAY=:99
-          Xvfb :99 -screen 0 1920x1080x16 &
+      # - name: Get Pulse
+      #   run: xvfb-run --auto-servernum -- npm run update-data
 
       - name: Get Pulse
-        run: xvfb-run --auto-servernum -- npm run update-data
+        run: npm run update-data
 
       - uses: fregante/setup-git-user@v2
 
