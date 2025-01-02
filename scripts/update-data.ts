@@ -19,6 +19,7 @@ async function checkInstagramAccountStatus(account: string): Promise<number> {
   try {
     await page.goto(`https://www.instagram.com/${account}/`, { waitUntil: 'networkidle' })
     const isAccountActive = await page.isVisible("text=Sorry, this page isn't available")
+    console.log('Content: ', await page.content())
     return isAccountActive ? 0 : 1
   } catch (error) {
     throw error
