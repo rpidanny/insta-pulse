@@ -21,6 +21,8 @@ async function checkInstagramAccountStatus(account: string): Promise<number> {
     await page.waitForLoadState('domcontentloaded')
     await page.waitForLoadState('networkidle')
     await page.waitForTimeout(5_000)
+    await page.screenshot({ path: 'screenshot.png', fullPage: true })
+
     const isAccountActive = await page.isVisible("text=Sorry, this page isn't available")
     console.log('Content: ', await page.content())
     return isAccountActive ? 0 : 1
