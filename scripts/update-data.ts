@@ -15,7 +15,9 @@ async function checkInstagramAccountStatus(account: string): Promise<number> {
     headless: true,
   })
 
-  const page = await browser.newPage()
+  const context = await browser.newContext({ recordVideo: { dir: 'videos/' } })
+
+  const page = await context.newPage()
   try {
     await page.goto(`https://www.instagram.com/${account}/`, { waitUntil: 'networkidle' })
     await page.waitForLoadState('domcontentloaded')
@@ -29,6 +31,7 @@ async function checkInstagramAccountStatus(account: string): Promise<number> {
   } catch (error) {
     throw error
   } finally {
+    await context.close()
     await browser.close()
   }
 }
