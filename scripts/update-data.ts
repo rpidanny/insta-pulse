@@ -15,7 +15,11 @@ async function checkInstagramAccountStatus(account: string): Promise<number> {
     headless: true,
   })
 
-  const context = await browser.newContext({ recordVideo: { dir: 'videos/' } })
+  const context = await browser.newContext({
+    recordVideo: { dir: 'videos/' },
+    userAgent:
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+  })
 
   const page = await context.newPage()
   try {
