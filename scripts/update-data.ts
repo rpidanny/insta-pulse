@@ -12,7 +12,7 @@ const PROCESSED_FILE = 'src/data/processed.json'
 
 async function checkInstagramAccountStatus(account: string): Promise<number> {
   const browser = await chromium.launch({
-    headless: true,
+    headless: false,
   })
 
   const context = await browser.newContext({
